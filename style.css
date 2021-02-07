@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
+body {
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+.search-area input[type="text"] {
+  padding: 10px;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: left;
+  width: 80%;
+  background: #f1f1f1;
+}
+
+.search-area button {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  background: #2196f3;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  border-left: none;
+  cursor: pointer;
+}
+
+.search-area button:hover {
+  background: #0b7dda;
+}
+
+.search-area::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*-- meals--*/
+.meals {
+  cursor: pointer;
+  padding: 50px;
+  text-align: center;
+  width: 60%;
+  border: 1px solid;
+  margin: 50px auto;
+}
+.meals img {
+  width: 250px;
+  height: 250px;
+}
+
+.meals h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+h1.error {
+  text-align: center;
+  color: red;
+  text-transform: uppercase;
+}
+.gradientList li {
+  list-style: none;
+  color: blue;
+  font-size: 20px;
+}
+.gradientList span {
+  color: tomato;
+  font-size: 30px;
+  text-transform: uppercase;
+}
