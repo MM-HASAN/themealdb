@@ -9,7 +9,7 @@ body {
 }
 
 .search-area {
-  margin-top: 30px;
+  margin-top: 30px auto;
 }
 .search-area input[type="text"] {
   padding: 10px;
