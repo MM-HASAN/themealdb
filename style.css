@@ -8,10 +8,8 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 
-.search-area {
-  margin-top: 30px auto;
-}
 .search-area input[type="text"] {
+  margin-top: 50px;
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
