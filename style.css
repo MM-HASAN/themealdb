@@ -6,11 +6,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@400;700&display=swap");
 body {
   font-family: "Roboto Condensed", sans-serif;
-  padding: 50px;
 }
 
 .search-area input[type="text"] {
-  margin-top: 50px;
   padding: 10px;
   font-size: 17px;
   border: 1px solid grey;
